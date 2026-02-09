@@ -5,8 +5,6 @@ import java.util.Optional;
 import com.progressive.banking.moneytransfer.domain.entities.Account;
 import com.progressive.banking.moneytransfer.domain.enums.AccountStatusEnum;
 
-import com.progressive.banking.moneytransfer.domain.entities.Account;
-import com.progressive.banking.moneytransfer.domain.enums.AccountStatus;
 import jakarta.persistence.LockModeType;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Lock;

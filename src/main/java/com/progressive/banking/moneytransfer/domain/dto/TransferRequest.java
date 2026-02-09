@@ -27,10 +27,10 @@ public class TransferRequest {
     private BigDecimal amount;
 
     /**
-     * Idempotency key — ensures retry requests are not processed twice
+     * key — ensures retry requests are not processed twice
      * Recommend using UUID string.
      */
-    @NotBlank(message = "idempotencyKey must not be blank")
+    //@NotNull(message = "idempotencyKey must not be blank")
     @Size(max = 64, message = "idempotencyKey must not exceed 64 characters")
     private String idempotencyKey;
 
