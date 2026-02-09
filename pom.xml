@@ -51,7 +51,10 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webmvc</artifactId>
 		</dependency>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 69dd3784c55036d7b66cbc1e73c73ec95c7e9efe
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
@@ -70,6 +73,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+<<<<<<< HEAD
 			<artifactId>spring-boot-starter-data-jpa-test</artifactId>
 			<scope>test</scope>
 		</dependency>
@@ -91,6 +95,26 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webmvc-test</artifactId>
+=======
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<!-- H2 in-memory DB for tests (e.g. @SpringBootTest context load) -->
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<!-- Explicit JUnit 5 (optional; spring-boot-starter-test includes it) -->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter</artifactId>
+>>>>>>> 69dd3784c55036d7b66cbc1e73c73ec95c7e9efe
 			<scope>test</scope>
 		</dependency>
 		<!-- pom.xml -->
